@@ -7,3 +7,16 @@ h1{
 p {
     
 }
+.highlight {
+    background-color: #ff3c00;
+}
+.card {
+    background-color: rgb(10, 120, 6);
+    padding: 30px;
+    border: 5px solid rgba(0, 0, 0, 0.423);
+    margin: 40px;
+}
+.card-container {
+    display: flex;
+    gap: 100px;
+}
