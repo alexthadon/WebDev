@@ -13,7 +13,7 @@ const result = document.querySelector("#result");
 form.addEventListener("submit", function(event) {
 
 event.preventDefault();
-        const name = nameInput.value;
+const name = nameInput.value;
 const email = emailInput.value;
 const interest = interestInput.value;
 
