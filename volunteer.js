@@ -4,8 +4,10 @@
 
 console.log("Volunteer form JavaScript loaded.");
 
-
+const form = document.querySelector("#volunteerForm");
 const nameInput = document.querySelector("#name");
+const emailInput = document.querySelector("#email");
+const interestInput = document.querySelector("#interest");
 const result = document.querySelector("#result");
 
 // TODO: Select the form, email input, and interest dropdown.
