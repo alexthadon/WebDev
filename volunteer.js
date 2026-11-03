@@ -10,13 +10,10 @@ const emailInput = document.querySelector("#email");
 const interestInput = document.querySelector("#interest");
 const result = document.querySelector("#result");
 
-// TODO: Select the form, email input, and interest dropdown.
-
-// TODO: Add a submit event listener to the form.
 form.addEventListener("submit", function(event) {
-// TODO: Prevent the default form submission.
 
-// TODO: Read the input values and check for missing information.
+event.preventDefault();
+
 if (name === "" || email === "" || interest === "") {
         result.textContent = "Please fill out all fields before submitting.";
 
@@ -42,4 +39,3 @@ if (name === "" || email === "" || interest === "") {
     }
 
 });
-// TODO: Display helpful errors or an interest-specific response.
